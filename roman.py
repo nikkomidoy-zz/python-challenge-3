@@ -11,7 +11,7 @@ class RomanCalculation(object):
     def to_roman_numeral(self):
         """
         Convert selected number to roman number
-        :return:
+        :return: roman numeral equivalent of the number
         """
         result = ''
         number = int(self.number)
